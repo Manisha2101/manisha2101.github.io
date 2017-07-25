@@ -68,7 +68,7 @@ ul, li {
 }
 
 .outer-wrapper {
-	width: 98%;
+	width: 93%;
 	max-width:1250px;
 	margin-top: 20px;
 	margin-left: auto;
@@ -3797,6 +3797,7 @@ transition:.4s;
 	background: transparent !important;
 	color: #006bb7 !important;
 	border: 2px solid #006bb7;
+width: 90%;
 }
 
 .no-margin-top {
@@ -3822,13 +3823,14 @@ transition:.4s;
 	background: rgba(255,255,255,0.8);
 	position: absolute;
 	top: 0;
-	width: 100%;
+	
 	height: 100%;
 	left: 0;
 	right: 0;
 	opacity: 0;
 	visibility: hidden;
 	transition: .4s;
+width: 90%;
 }
 
 #portfolio-home.folio-boxed-2col .project-info ,
@@ -3842,7 +3844,7 @@ transition:.4s;
 	right: 0;
 	text-align: center;
 	transition: .4s;
-	width:100%;
+	width:90%;
 }
 
 #portfolio-home.folio-boxed-2col .project-item img ,
@@ -3850,6 +3852,7 @@ transition:.4s;
 #portfolio-home.folio-boxed-4col .project-item img {
 	transform: scale(1);
 	transition: .4s;
+width: 90%;
 }
 
 #portfolio-home.folio-boxed-2col .project-info h2 ,
@@ -3859,6 +3862,7 @@ transition:.4s;
 	color: #000;
 	letter-spacing: 1px;
 	transition:.4s;
+width: 90%;
 }
 
 #portfolio-home.folio-boxed-2col .project-info h2:hover ,
@@ -3866,6 +3870,7 @@ transition:.4s;
 #portfolio-home.folio-boxed-4col .project-info h2:hover {
 	color: #006bb7;
 	transition:.4s;
+width: 90%;
 }
 
 #portfolio-home.folio-boxed-2col .project-item:hover img ,
@@ -3873,6 +3878,7 @@ transition:.4s;
 #portfolio-home.folio-boxed-4col .project-item:hover img {
 	transform: scale(1.1);
 	transition: .4s;
+width: 90%;
 }
 
 #portfolio-home.folio-boxed-2col .project-item:hover .overlay-folio2 ,
@@ -3881,6 +3887,7 @@ transition:.4s;
 	opacity: 1;
 	visibility: visible;
 	transition: .4s;
+width: 90%;
 }
 
 #portfolio-home.folio-boxed-2col .project-item:hover .project-info ,
@@ -3888,6 +3895,7 @@ transition:.4s;
 #portfolio-home.folio-boxed-4col .project-item:hover .project-info {
 	bottom: 0%;
 	transition: .4s;
+width: 90%;
 }
 
 #portfolio-home.gutter .project-item {
@@ -3909,6 +3917,7 @@ transition:.4s;
 	text-align: center;
 	transition: all 0.4s ease 0s;
 	bottom: 10px;
+        
 }
 
 #portfolio-home.tiles .overlay-folio2 {
@@ -3918,7 +3927,7 @@ transition:.4s;
 }
 
 #portfolio-home.tiles .project-gal {
-	overflow: hidden;
+	overflow: hidden; 
 }
 
 #portfolio-home.tiles .overlay-folio2 {
@@ -3937,7 +3946,7 @@ transition:.4s;
 }
 
 #portfolio-home .project-gal img {
-	width: 100%;
+	width: 90%;
 }
 
 .no-padding-bottom {
